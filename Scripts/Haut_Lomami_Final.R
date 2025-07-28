@@ -98,3 +98,7 @@ pre_ea_final <- pre_ea_final %>%
 st_write(pre_ea_final, paste0(output_path, "Haut_Lomami_combined.gpkg"), delete_layer = TRUE)
 
 
+#Export the result as csv
+st_write(pre_ea_final, paste0(output_path, "Haut_Lomami_combined.gpkg"), delete_layer = TRUE)
+
+
